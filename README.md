@@ -1,6 +1,6 @@
 # Thesaurus
 
-# Aplication in Java
+## Aplication in Java
 
 >Thesaurus for save words, project written in Java 8. v1.0!
 
@@ -13,4 +13,4 @@
 - [![Twitter Follow](https://img.shields.io/twitter/follow/NinoArge.svg?style=social)](https://twitter.com/NinoArge) 
 - [![Instagram Follow](https://img.shields.io/static/v1?label=Follow&message=Instagram&color=blue&logo=instagram)](https://www.instagram.com/arge_nino/) 
 
-**By:ArgeNH**
+**By: ArgeNH**
