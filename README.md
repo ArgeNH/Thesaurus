@@ -7,4 +7,7 @@
 ###### Special Rewards 
 - Daniel Lagos
 
+###### Social Networks
+- https://twitter.com/NinoArge
+
 **By:ArgeNH**
