@@ -8,6 +8,7 @@
 - Daniel Lagos
 
 ###### Social Networks
-- twitter.com/NinoArge
+- https://twitter.com/NinoArge
+- https://www.instagram.com/arge_nino
 
 **By:ArgeNH**
