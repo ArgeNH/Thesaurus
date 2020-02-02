@@ -1,0 +1,22 @@
+[
+  {
+    "word": "Adaptabilidad",
+    "description": "Propiedad que tiene un sistema de aprender y modificar un proceso, un estado o una caracter�stica de acuerdo a las modificaciones que sufre el contexto. Un sistema adaptable pose� un fluido de intercambio con el medio en el que se desarrolla.",
+    "example": "Una planta adaptandose a cada uno de los cambios en el dia."
+  },
+  {
+    "word": "Ambiente",
+    "description": "Sucesos y condiciones que influyen sobre el comportamiento de un sistema.",
+    "example": "El clima en el transcurso del d�a.\n\nRelaci�n: Adaptabilidad"
+  },
+  {
+    "word": "Armonia",
+    "description": "Propiedad que mide el nivel de compatibilidad con su medio o contexto. Un sistema altamente arm�nico es aquel que sufre modificaciones en su estructura, proceso o caracter�sticas en la medida que el medio se lo exige y es est�tico cuando el medio tambi�n lo es.",
+    "example": "Forma clara de llevar todo con un orden, en un caso mas puntual la armonia que se lleva en una relaci�n de pareja."
+  },
+  {
+    "word": "Atributo",
+    "description": "Componentes de un sistema donde se determinan las estructuras y sus funciones. Estos de definen tal como se conoce u observa un sistema, dividi�ndose en dos partes, definidores y concomitantes: los definidores sin ellos una entidad no ser�a designada o definida; los atributos concomitantes cuya presencia no establece ninguna diferencia con respecto a su uso.",
+    "example": "Una persona puede ser caracterizado mediante sus atributos propios como: Numero de identificaci�n, nombre, apellido, edad, pero entre otros. Que lo pueden llegar a caracterizar."
+  }
+]
