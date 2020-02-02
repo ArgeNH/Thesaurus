@@ -11,6 +11,6 @@
 
 - [![Follow on Github](https://img.shields.io/github/followers/argenh.svg?style=social&label=Follow)](https://github.com/ArgeNH)
 - [![Twitter Follow](https://img.shields.io/twitter/follow/NinoArge.svg?style=social)](https://twitter.com/NinoArge) 
-- [Instagram](https://www.instagram.com/arge_nino/) 
+- [![Instagram Follow](https://img.shields.io/static/v1?label=Follow&message=Instagram&color=blue&logo=instagram)](https://www.instagram.com/arge_nino/) 
 
 **By:ArgeNH**
