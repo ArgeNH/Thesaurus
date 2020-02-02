@@ -26,7 +26,7 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 	private PanelFind panelFind;
 	
 	public MainWindow(){
-		setTitle("TGS ~ Tesauro | Arge Niño");
+		setTitle("TGS ~ Tesauro | Arge Niï¿½o");
 		setSize(new Dimension(740,480));
 		setLocationRelativeTo(this);
 		setResizable(false);
@@ -55,7 +55,6 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 	}
 
 	private void addElements() {
-		//add(panelTitle,BorderLayout.SOUTH);
 		this.setJMenuBar(panelMenu);
 		add(desktop,BorderLayout.CENTER);
 		add(panelWords,BorderLayout.CENTER);
@@ -102,15 +101,15 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 		switch(option){
 			case ActionsThesaurus.ADD_WORD:
 				if(state==true){
-					JOptionPane.showMessageDialog(null, "Se agrego el término, con exito");
+					JOptionPane.showMessageDialog(null, "Se agrego el tï¿½rmino, con exito");
 					cleanFields();
 				}else{
-					JOptionPane.showMessageDialog(null, "Este término ya existe, o no se puede agregar");
+					JOptionPane.showMessageDialog(null, "Este tï¿½rmino ya existe, o no se puede agregar");
 				}
 				break;
 			case ActionsThesaurus.FIND_WORD:
 				if(state==true){
-					JOptionPane.showMessageDialog(null, "Término encontrado con exito");
+					JOptionPane.showMessageDialog(null, "Tï¿½rmino encontrado con exito");
 					System.out.println(output[1].toString());
 					panelFind.getShow().setText(output[1]+"\n\n"+output[2]);
 				}else{

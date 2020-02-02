@@ -11,9 +11,6 @@ import model.Thesaurus;
 
 public class ControlThesaurus implements ActionListener {
 	
-	public static final String ANSI_RED = "\033[31m";
-	public static final String ANSI_RESET = "\u001B[0m";
-	
 	private ManagementTheasures mng;
 	private MainWindow window;
 	
@@ -61,11 +58,9 @@ public class ControlThesaurus implements ActionListener {
 			String example=dates[2];
 			if(mng.addWord(word, description,example)){
 				window.writeOuput(ActionsThesaurus.ADD_WORD, new String [] {word}, true);
-				System.out.println("F en el chat");
 				persistence();
 			}else{
 				window.writeOuput(ActionsThesaurus.ADD_WORD, new String [] {word}, false);
-				System.out.println("F en el chat2");
 			}
 		}
 		
