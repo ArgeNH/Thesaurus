@@ -14,6 +14,8 @@ public class PanelMenu extends JMenuBar {
 	
 	private MainWindow window;
 	private JMenu options;
+	private JMenu table;
+	private JMenuItem tableshow;
 	private JMenuItem addWords;
 	private JMenuItem showWords;
 	
@@ -32,6 +34,14 @@ public class PanelMenu extends JMenuBar {
 		options=new JMenu("Opciones");
 		options.setFont(font);
 		
+		table=new JMenu("Tabla de terminos");
+		table.setFont(font);
+		
+		tableshow=new JMenuItem("Tabla");
+		tableshow.setFont(font);
+		tableshow.setActionCommand(ActionsThesaurus.VIEW_TABLE);
+		tableshow.addActionListener(window.getControll());
+		
 		addWords=new JMenuItem("Añadir conceptos");
 		addWords.setFont(font);
 		addWords.setActionCommand(ActionsThesaurus.VIEW_ADD_WORDS);
@@ -45,8 +55,11 @@ public class PanelMenu extends JMenuBar {
 	}
 
 	private void addElements() {
-		add(options);
 		
+		add(options);
+		add(table);
+		
+		table.add(tableshow);
 		options.add(addWords);
 		options.add(showWords);
 		

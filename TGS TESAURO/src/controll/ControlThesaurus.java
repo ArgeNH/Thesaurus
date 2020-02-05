@@ -3,6 +3,8 @@ package controll;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Comparator;
 
 import gui.MainWindow;
 import model.ActionsThesaurus;
@@ -10,6 +12,9 @@ import model.ManagementTheasures;
 import model.Thesaurus;
 
 public class ControlThesaurus implements ActionListener {
+	
+	public static final String ANSI_RED = "\033[31m";
+	public static final String ANSI_RESET = "\u001B[0m";
 	
 	private ManagementTheasures mng;
 	private MainWindow window;
@@ -29,13 +34,30 @@ public class ControlThesaurus implements ActionListener {
 		case ActionsThesaurus.VIEW_WORDS:
 			window.readInput(ActionsThesaurus.VIEW_WORDS);
 			break;
+		case ActionsThesaurus.VIEW_TABLE:
+			window.readInput(ActionsThesaurus.VIEW_TABLE);
+			break;
 		case ActionsThesaurus.ADD_WORD:
 			addWord(window.readInput(ActionsThesaurus.ADD_WORD));
 			break;
 		case ActionsThesaurus.FIND_WORD:
 			findWord(window.readInput(ActionsThesaurus.FIND_WORD));
 			break;
+		case ActionsThesaurus.SORT_WORDS:
+			sort(Thesaurus.compWord);
+			break;
 		}
+	}
+
+	private void sort(Comparator<Thesaurus> compWord) {
+		ArrayList<Thesaurus> out=mng.sort(Thesaurus.compWord);
+		String [] exit=new String[out.size()];
+		int cant=0;
+		for (Thesaurus string : out) {
+			String word=string.getWord();
+			exit[cant++]=word;
+		}
+		window.writeOuput("order", exit, true);
 	}
 
 	private void findWord(String[] dates) {
@@ -58,9 +80,11 @@ public class ControlThesaurus implements ActionListener {
 			String example=dates[2];
 			if(mng.addWord(word, description,example)){
 				window.writeOuput(ActionsThesaurus.ADD_WORD, new String [] {word}, true);
+				System.out.println("F en el chat");
 				persistence();
 			}else{
 				window.writeOuput(ActionsThesaurus.ADD_WORD, new String [] {word}, false);
+				System.out.println("F en el chat2");
 			}
 		}
 		

@@ -3,12 +3,15 @@ package gui;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.util.StringTokenizer;
 
 import javax.swing.ImageIcon;
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.border.Border;
+import javax.swing.table.DefaultTableModel;
 
 import controll.ControlThesaurus;
 import model.ActionsThesaurus;
@@ -24,9 +27,10 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 	private PanelMenu panelMenu;
 	private PanelWords panelWords;
 	private PanelFind panelFind;
+	private InternalTable internalTable;
 	
 	public MainWindow(){
-		setTitle("TGS ~ Tesauro | Arge Niï¿½o");
+		setTitle("TGS ~ Tesauro | Arge Niño");
 		setSize(new Dimension(740,480));
 		setLocationRelativeTo(this);
 		setResizable(false);
@@ -51,15 +55,16 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 		panelMenu=new PanelMenu(this);
 		panelWords=new PanelWords(this,desktop);
 		panelFind=new PanelFind(this,desktop);
-		
+		internalTable=new InternalTable(this, desktop);
 	}
 
 	private void addElements() {
+		//add(panelTitle,BorderLayout.SOUTH);
 		this.setJMenuBar(panelMenu);
 		add(desktop,BorderLayout.CENTER);
 		add(panelWords,BorderLayout.CENTER);
 		add(panelFind,BorderLayout.CENTER);
-		
+		add(internalTable,BorderLayout.CENTER);
 	}
 
 	@Override
@@ -72,6 +77,12 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 		case ActionsThesaurus.VIEW_WORDS:
 			panelFind.setVisible(true);
 			panelWords.setVisible(false);
+			break;
+		case ActionsThesaurus.VIEW_TABLE:
+			internalTable.setVisible(true);
+			panelFind.setVisible(false);
+			panelWords.setVisible(false);
+			controll.actionPerformed(new ActionEvent(this, 0, ActionsThesaurus.SORT_WORDS));
 			break;
 		case ActionsThesaurus.ADD_WORD:
 			return addWord();
@@ -95,30 +106,46 @@ public class MainWindow extends JFrame implements ActionsThesaurus{
 
 	@Override
 	public void writeOuput(String option, String[] output, boolean state) {
-		
-		
-		
 		switch(option){
 			case ActionsThesaurus.ADD_WORD:
 				if(state==true){
-					JOptionPane.showMessageDialog(null, "Se agrego el tï¿½rmino, con exito");
+					JOptionPane.showMessageDialog(null, "Se agrego el término, con exito");
 					cleanFields();
 				}else{
-					JOptionPane.showMessageDialog(null, "Este tï¿½rmino ya existe, o no se puede agregar");
+					JOptionPane.showMessageDialog(null, "Este término ya existe, o no se puede agregar");
 				}
 				break;
 			case ActionsThesaurus.FIND_WORD:
 				if(state==true){
-					JOptionPane.showMessageDialog(null, "Tï¿½rmino encontrado con exito");
+					JOptionPane.showMessageDialog(null, "Término encontrado con exito");
 					System.out.println(output[1].toString());
 					panelFind.getShow().setText(output[1]+"\n\n"+output[2]);
 				}else{
 					JOptionPane.showMessageDialog(null, "No Existe el termino buscado");
 				}
 				break;
+			case "order":
+				tableWords(output);
+				controll.actionPerformed(new ActionEvent(this, 0, ActionsThesaurus.SORT_WORDS));
+			break;
 		}
 		
 	}
+	
+	private void tableWords(String[] output) {
+		DefaultTableModel dtm=internalTable.getModel();
+		while(dtm.getRowCount()>0 ){
+			dtm.removeRow(0);
+		}
+		for (String chain : output) {
+			StringTokenizer tokens=new StringTokenizer(chain, ";");
+			String termino=tokens.nextToken();
+			Object[] list=new Object[]{termino};
+			dtm.addRow(list);
+		}
+	}
+
+	
 
 	@Override
 	public void setControll(ControlThesaurus controll) {

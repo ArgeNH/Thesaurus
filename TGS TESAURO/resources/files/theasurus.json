@@ -1,22 +1,302 @@
 [
   {
     "word": "Adaptabilidad",
-    "description": "Propiedad que tiene un sistema de aprender y modificar un proceso, un estado o una caracterï¿½stica de acuerdo a las modificaciones que sufre el contexto. Un sistema adaptable poseï¿½ un fluido de intercambio con el medio en el que se desarrolla.",
-    "example": "Una planta adaptandose a cada uno de los cambios en el dia."
+    "description": "Propiedad que tiene un sistema de aprender y modificar un proceso, un estado o una caracteristica de acuerdo a las modificaciones que sufre el contexto. Un sistema adaptable poseé un fluido de intercambio con el medio en el que se desarrolla.",
+    "example": "Una planta adaptandose a cada uno de los cambios en el dia. \n\nRelación: Ambiente, Armonia"
   },
   {
     "word": "Ambiente",
     "description": "Sucesos y condiciones que influyen sobre el comportamiento de un sistema.",
-    "example": "El clima en el transcurso del dï¿½a.\n\nRelaciï¿½n: Adaptabilidad"
+    "example": "El clima en el transcurso del dicha.\n\nRelación: Adaptabilidad, Armonia"
   },
   {
     "word": "Armonia",
-    "description": "Propiedad que mide el nivel de compatibilidad con su medio o contexto. Un sistema altamente armï¿½nico es aquel que sufre modificaciones en su estructura, proceso o caracterï¿½sticas en la medida que el medio se lo exige y es estï¿½tico cuando el medio tambiï¿½n lo es.",
-    "example": "Forma clara de llevar todo con un orden, en un caso mas puntual la armonia que se lleva en una relaciï¿½n de pareja."
+    "description": "Propiedad que mide el nivel de compatibilidad con su medio o contexto. Un sistema altamente armonico es aquel que sufre modificaciones en su estructura, proceso o características en la medida que el medio se lo exige y es estático cuando el medio también lo es.",
+    "example": "Forma clara de llevar todo con un orden, en un caso mas puntual la armonia que se lleva en una relación de pareja. \n\n Relación: Ambiente, Adaptabilidad"
   },
   {
     "word": "Atributo",
-    "description": "Componentes de un sistema donde se determinan las estructuras y sus funciones. Estos de definen tal como se conoce u observa un sistema, dividiï¿½ndose en dos partes, definidores y concomitantes: los definidores sin ellos una entidad no serï¿½a designada o definida; los atributos concomitantes cuya presencia no establece ninguna diferencia con respecto a su uso.",
-    "example": "Una persona puede ser caracterizado mediante sus atributos propios como: Numero de identificaciï¿½n, nombre, apellido, edad, pero entre otros. Que lo pueden llegar a caracterizar."
+    "description": "Componentes de un sistema donde se determinan las estructuras y sus funciones. Estos de definen tal como se conoce u observa un sistema, dividiendose en dos partes, definidores y concomitantes: los definidores sin ellos una entidad no sería designada o definida; los atributos concomitantes cuya presencia no establece ninguna diferencia con respecto a su uso.",
+    "example": "Una persona puede ser caracterizado mediante sus atributos propios como: Numero de identificación, nombre, apellido, edad, pero entre otros. Que lo pueden llegar a caracterizar."
+  },
+  {
+    "word": "Caja negra",
+    "description": "Forma de representación a los sistemas cuando no se sabe que elemetos o cosas lo pueden componer, pero se tiene unas determinadas entradas, estas claramente determinan una salida. Dependiendo de unos estímulos, las distintas variables cambiarián en varios sentidos.",
+    "example": "El hecho de realizar una acción cotidiana, conlleva a relaizar una serie de pasos, ya sea caminar o realizar una actividad especifica."
+  },
+  {
+    "word": "Centralizacion",
+    "description": "Se dice que un sistema es centralizado cuando tiene un componente núcleo que aporta el cómo hacer cierto tipo de cosas.",
+    "example": "Este componente núcleo se puede ver a forma de ejemplo como el jefe de una empresa, el lider de un grupo o el Estado. Tomando las decisones para cada tipo de sociedad. \n\nRelación: Armonia, Ambiente, Adaptabilidad"
+  },
+  {
+    "word": "Descentralizacion",
+    "description": "En un sistema descentralizado no existe un núcleo de comando o decision, o puede estar compuesto por varios subsistemas. Siendo de esta manera un sistema no tan dependiente, pero teniendo subsistemas que actúan de reserva y solo se activan en el caso de que el sistema falle.",
+    "example": "En el mundo existen varios subsistemas que dependen de otros para sobrevivir. Siendo mas exactos la descentralización tiende a formar grupos donde el núcleo no actua como lo central, sino se dispersa esta toma de decisiones bien sea por conveniencia o supervivencia."
+  },
+  {
+    "word": "Cibernetica",
+    "description": "Entendiendose como el campo interdisciplinario de los procesos de control y de comunicación, tendiendo a ser la retroalimentación de tanto maquinas como seres vivos. ",
+    "example": "Ciertos pasos conllevan a la realización de una actividad en concreta, como la de conducir un auto, tener el control en el volante y presentar algun tipo de anomalia o molestia a la hora de conducir; se puede ver como un sistema de retroalimentacion para no cometer dichos errores en una proxima vez.\n\nRelación: Caja negra, Armonia."
+  },
+  {
+    "word": "Circularidad",
+    "description": "Concepto cibernético que nos refiere a los procesos de autocausación. Cuando A causa B y B causa C, pero C causa A, luego A en lo esencial es autocusado.",
+    "example": "Este circulo de acciones causales se presentan en cada tipo de sistema existente, ya que dependiendo del tipo de retroalimentación surgen o no los problemas de los mismos.\n\nRelación: Cibernetica"
+  },
+  {
+    "word": "Complejidad",
+    "description": "Nos puede indicar la cantidad de elementos de un sistema, sus interacciones y el número de estados posibles que se pueden llegar a producir. La complejidad sistématica está en directa proporció con su variedad y variabilidad, siempre desde una medida comparativa.",
+    "example": "Una ecuación o un problema matematico o de logica puede presentar un grado de complejidad con ciertos individuos, dependiendo del nivel de conocimiento que este posea sobre el tema tratado, en este caso una ecuación."
+  },
+  {
+    "word": "Conglomerado",
+    "description": "Suma de las partes, componentes y atributos en un conjunto es igual a todo, presentando una totalidad deprovista de sinergia, es decir de un conglomerado.",
+    "example": "Un grupo de personas, se puede dividir en otros grupos y de allí escojer distintos subsistemas con caracteristicas especiales.\n\nRelación: Atributo"
+  },
+  {
+    "word": "Contexto",
+    "description": "Objetos exteriores al sistema, pero llegan a influir de manera inmediate en éste y viceversa. Determinar un límite de interés es fundamental para marcar un análisis mas exacto, dando asi el interes en algunas relaciones.\nEtapas para considerar un limite:\na) Determinación del contexto de interés.\nb) Alcance del límite de interés entre el contexto y sistema.",
+    "example": "La comunicación entre un jefe y un empleado, siendo así la manera donde existe ese límite y las relaciones que se manejan.\n\nRelación: Centralizacion."
+  },
+  {
+    "word": "Elemento",
+    "description": "Parte o componente que se halla en un sistema. Puede ser objeto, proceso o relación.",
+    "example": "La relación entre un jefe y un empleado. Como ejemplo se puede tomar la confianza que se tiene sobre el empleado."
+  },
+  {
+    "word": "Emergencia",
+    "description": "La descomposcion de sistemas en unidades menores avanza hasta el límite en el que surge un nuevo nivel de emergencia que corresponde a otro sistema cualitativamente diferente. Estas propiedades se desprenden por la interacción de los elementos de dicho sistema. ",
+    "example": "Se puede presentar la perturbación en un sistema poniendo en riesgo la estabilidad de éste. \n\nRelación: Elemento."
+  },
+  {
+    "word": "Energia",
+    "description": "Resultados de procesos o entradas a un sistema, que hacen que éste continue su comportamiento o realice cambios segun los problemas a acciones que deriven del mismo.",
+    "example": "Cuando nosotros realizamos un parcial o examen, tendemos a revisar varias veces la respuesta cuando no estamos seguros de aquello. Dependiendo de la decision que tomemos surgirando cambios dentro de este proceso de análisis. \n\nRelación: Entradas, Emergencia, Complejidad."
+  },
+  {
+    "word": "Entradas",
+    "description": "Las entradas son los ingresos a un sistema que pueden ser recursos materiales, recursos humanos o información. Estas constituyen la fuerza de arranque de las necesidades para realizar operaciones. Pueden ser:\n1) En serie: la salida de un sistema anteriror con el cual el sistema en estudio esta relacionado de forma directa.\n2) Aleatoria: al azar, en sentido estadistico. Dichas entradas representan entradas potenciales.\n3) Retroacción: reintroducción de un parte de las salidas del sistemas en sí mismo.",
+    "example": "Dichas entradas sirven como medio para realizar un proceso en cualquier sistema, como ejemplo podemos tomar como se hace una lectura, mediante un libro y el proceso de compresion de lectura."
+  },
+  {
+    "word": "Entropia",
+    "description": "Se busca mantener la energía del sistema. Como segundo principio de la termodinámica este establece el crecimiento de está, obteniendo una máxima probabilidad de los sistemas en su progresiva desorganización. \nEste desgaste que el sistema presenta por el transcurso del tiempo o por el funcionamiento del mismo. Estos sistemas con altos niveles tienden a desaparecer por su proceso sistémico. No existe un control o una retroalimentacion que motive a evitar su desaparición.",
+    "example": "En una exposición de un tema en especifico se puede llegar a tener un alto nivel de entropia, ya que el individuo no puede tener claro los terminos y conceptos que va a tratar en dicha exposición. Al volverse tan repetitico y no tener el control de esto, esmuy dificil o de tiempo correjir dicho error que esta causando"
+  },
+  {
+    "word": "Equifinalidad",
+    "description": "Se define como el hecho de que un sistema este vivo a partir de distintas condiciones iniciales y por distintos cambios llega a un mismo estado final. Manteniedo un estado de equilibrio fluyente.",
+    "example": "Un ejemplo claro es  los distintos caminos que puede tener un profesional para desarrollarse en el ambito que mas le guste o apasione."
+  },
+  {
+    "word": "Equilibrio",
+    "description": "Estado intermedio entre el orden y el desorden. \nLos estados de quilibrio sistémicos pueden ser alcanzados en los sistemas abiertos. Esto implica necesariamente la importación de recursos provenientes del ambiente. ",
+    "example": "La sociedad no puede soportar los cambios bruscos, siendo así que dicho estado puede buscar un putno de equilibrio para mantener a una gran mayoria en neutralidad ante decisiones.\n\nRelación:  Equifinalidad, Entropia, Energia."
+  },
+  {
+    "word": "Estructura",
+    "description": "Interrelaciones mas o menos estables entre las parte o componentes de un sistema. Estas de distinguen entre una estructura primaria y una hiperestructura.",
+    "example": "Forma de organizar un sistema, aun así se presentan momentos estables e inestables. Como por ejemplo la organización de un trabajo en grupono siempre mantiene un ritmo estable sino algunas veces puede presentar complicaciones."
+  },
+  {
+    "word": "Estabilidad",
+    "description": "Un sistema es estable cuando puede mantenerse en equilibrio a través del flujo continuo de materiales, energía e información.\n",
+    "example": "La estabiliad laboral va depender de factores que influyen dentro del sistema, y las acciones que uno llegue a realizar"
+  },
+  {
+    "word": "Feed-forward",
+    "description": "Es una forma de control de los sistemas, dicho control se realiza a la entrada del sistema para que el sistema no tenga entradas corruptas o malas, de esta forma al no haber entradas malas, las fallas no serán consecuencia de las entradas sino de los proceso mismos que actúan en el sistema.\n",
+    "example": "Una forma clarade hablar sobre esto es con las tutorias que nos ofrecen los diferentes docentes en la universidad, antes de ir a un examen. Evitando errores que puedan causar consecuencias en el futuro."
+  },
+  {
+    "word": "Frontera",
+    "description": "En algunos sistemas sus fronteras o límites coinciden con discontinuidades estructurales entre estos y sus ambientes, pero corrientemente la demarcación de los límites sistémicos queda en manos de un observador.\n",
+    "example": "El codigo de conducto en distintos sitios puede establecer normas o reglas muy diferentes. Marcando una frontera entre lo que puede estar bien o mal en dichos sitios o espacios."
+  },
+  {
+    "word": "Funcion",
+    "description": "Output de un sistema que está dirigido a la mantención del sistema mayor en el que se encuentra inscrito.",
+    "example": "El rol que puede encabecer un miembro de un sistema para mantener un equilibrio con el mismo y los que lo componen.\n\nRelación: Elemento, Estructura."
+  },
+  {
+    "word": "Homeostasis",
+    "description": "Propiedad de un sistema que define su nivel de respuesta y de adaptación al contexto. Es decir, la homeostasis se puede definir como \"el mismo es y es esta propiedad la que permite a un sistema permanecer en un estado estable a través del tiempo.\"  La homeostasis actúa como condicionante del nivel de evolución.\n",
+    "example": "El como un estudiante de bachillerato puede llegar a adaptarse al ritmo de la universidad en un periodo de tiempo pequeño.\n\nRelación: Adaptacion, Relacion."
+  },
+  {
+    "word": "Informacion",
+    "description": "La información tiene un comportamiento distinto al de la energía, pues su comunicación no elimina la información del emisor o fuente. La información es la más importante corriente negentrópica de que disponen los sistemas complejos.",
+    "example": "La sociedad al disponer de dicha informacion realiza diferentes comportamientos, manifestandose de manera positiva o negativa. Es ahí donde se puede ver un grado de complejidad.\n\nRelación: Complejidad, Relacion, Entradas."
+  },
+  {
+    "word": "Integracion e independecia",
+    "description": "Un sistema es integrado cuando su nivel de coherencia interna hace que un cambio producido en cualquiera de sus subsistemas produzca cambios en los demás subsistemas y hasta en el sistema mismo. Un sistema es independiente cuando un cambio que se produce en él, no afecta a otros sistemas.\n",
+    "example": "Cuando se esta empezando a aprende un nuevo lenguaje de programación surgen cambios al conocer una nueva sintaxis. Pero al acostumbrarse a esta nueva, no llega a afectar de manera tragica."
+  },
+  {
+    "word": "Mantenibilidad",
+    "description": "Propiedad que tiene un sistema de mantenerse constantemente en funcionamiento. Para ello utiliza un mecanismo de mantenimiento que asegure que los distintos subsistemas están balanceados y que el sistema total se mantiene en equilibrio con su medio.",
+    "example": "El constante cambio de politicas en un Estado, esto con el fin de mantener un balance evitando mayor perdidasen muchos sentidos. No sucede en Colombia.\n\nRelación: Equilibrio."
+  },
+  {
+    "word": "Modelo",
+    "description": "Constructos diseñados por un observador que persigue identificar y mensurar relaciones sistémicas complejas. Todo sistema real tiene la posibilidad de ser representado en más de un modelo. El metamodelo sistémico más conocido es el esquema input-output.\n",
+    "example": "La manera de formar un negocio teniendo en cuenta que se necesita par acerlo y la viabilidad en la zona que se va a crear."
+  },
+  {
+    "word": "Morfogenesis",
+    "description": "Se trata de procesos que apuntan al desarrollo, crecimiento o cambio en la forma, estructura y estado del sistema. Ejemplo de ello son los procesos de diferenciación, la especialización, el aprendizaje y otros.",
+    "example": "El desarrollo de nuevas hailidades, cuando se esta aprendiendo una cosa nueva. Un niño cuando inica su etapa escolar, aprendiendo a leer o escribir."
+  },
+  {
+    "word": "Morfostasis",
+    "description": "Procesos de intercambio con el ambiente que tienden a preservar o mantener una forma, una organización o un estado dado de un sistema. Procesos de este tipo son característicos de los sistemas vivos. En una perspectiva cibernética la morfostasis nos remite a los procesos causales mutuos que reducen o controlan las desviaciones.",
+    "example": "Existe una feedback, que ayuda al control de cada uno de los sitemas que actuan en el medio. Definiendo asi las causas por las cuales uno elije colocar una cancion en un grupo especifico de personas."
+  },
+  {
+    "word": "Negentropia",
+    "description": "La negentropía, entonces, se refiere a la energía que el sistema importa del ambiente para mantener su organización y sobrevivir ",
+    "example": "Los sistemas vivos permiten imporar su energia como forma de mantenerse estable en el medio que se desarrolla."
+  },
+  {
+    "word": "Operadores",
+    "description": "Variables que activan a las demás y logran influir decisivamente en el proceso para que éste se ponga en marcha. Se puede decir que estas variables actúan como líderes de las restantes y por consiguiente son privilegiadas respecto a las demás variables. ",
+    "example": "En una ecuacion, dependiendo los operadores se tiene que realizar un proceso diferente. "
+  },
+  {
+    "word": "Optimizacion",
+    "description": "Optimización es modificar el sistema para lograr el alcance de los objetivos.\n",
+    "example": "Mejorar el nivel de procesamiento de datos en un programa."
+  },
+  {
+    "word": "Suboptimizacion",
+    "description": "Se presenta cuando un sistema no alcanza sus objetivos por las restricciones del medio o porque el sistema tiene varios objetivos y los mismos son excluyentes, en dicho caso deben restringirse los alcances de los objetivos o eliminar los de menor importancia si estos son excluyentes con otros más importantes.\n",
+    "example": "El medio proporciona obstaculos para llegar a un optimizacion definitiva,opacando algunos objetivos."
+  },
+  {
+    "word": "Organizacion",
+    "description": "La organización sistémica se refiere al patrón de relaciones que definen los estados posibles para un sistema determinado.\n",
+    "example": "Corresponde al orden o estados en un sistemas, de dicha manera se puede mantener un patron de los procesos que se realicen.\n\nRelacion: Variabilidad."
+  },
+  {
+    "word": "Parametro",
+    "description": "Cuando una variable no tiene cambios que dependen del comportamiento del mismo. Son consideraciones dadas por quien lo estudia.\n",
+    "example": "Permite la interaccion con dicho sistema, ya que este recibe entradas, lo procesa y efectua salidas."
+  },
+  {
+    "word": "Permeabilidad",
+    "description": "Mide la interacción que un sistema recibe del medio, se dice que a mayor o menor permeabilidad el sistema será más o menos abierto.",
+    "example": "Una persona que permanece en constante aprendizaje estara aplicando conocimientos nuevos cada dia, y asi el poder interactuar con su entorno."
+  },
+  {
+    "word": "Proceso",
+    "description": " En la transformación de entradas en salidas se debe saber siempre como se efectúa esa transformación. Transformación de una entrada en una salida, como tal puede ser una máquina, un individuo, un computador, un producto químico, una tarea realizada por un miembro de la organización, etcétera.",
+    "example": "Ligado a actividades o pasos, la manera de realizar el calculo de una integral teniendo en cuenta los parametros a seguir de dichas cifras."
+  },
+  {
+    "word": "Rango",
+    "description": "En el universo existen distintas estructuras de sistemas y es factible ejercitar en ellas un proceso de definición de rango relativo. El concepto de rango indica la jerarquía de los respectivos subsistemas entre sí y su nivel de relación con el sistema mayor en función de su grado de complejidad.",
+    "example": "El rango categoriza el nivel de interacción de los individos con su sistema y los subsistemas de éste. "
+  },
+  {
+    "word": "Recursividad",
+    "description": "Proceso que hace referencia a la introducción de los resultados de las operaciones de un sistema en él mismo.",
+    "example": "Un individuo de cualquier sistema puede recurrir a utilizar los propios medios de éste para facilitar una actividad en concreta."
+  },
+  {
+    "word": "Relacion",
+    "description": "Son enlaces que vinculan entre sí a los objetos o subsistemas que componen un sistema.",
+    "example": "La conexión entre dos personas, esta se puede dar por vinculos ya sea por gustos o otras cosas que los vinculan de una manera positiva efectuando una conexion fuerte."
+  },
+  {
+    "word": "Sinergia",
+    "description": "Es una relación que no es necesaria para el funcionamiento pero que resulta útil, ya que su desempeño mejora sustancialmente el sistema. Sinergia significa \"acción combinada\". ",
+    "example": "Esta accion combinada demuestra el como el medio y el sistemas se pueden complementar asi aumentando su desempeño."
+  },
+  {
+    "word": "Retroalimentacion",
+    "description": "roceso en que un sistema recoge información efecto de sus decisiones internas , información que actúa sobre las decisiones sucesivas. Se produce cuando parte de las salidas del sistema vuelven a ingresar a él como recursos o información. La retroalimentación permite el control de un sistema y que él mismo tome medidas de corrección en base a la información retroalimentada.\n",
+    "example": "Los errores que uno puede cometer en un parcial, el docente puede recurrir a dar la explicacion del porque la opcion correcta es dicha respuesta."
+  },
+  {
+    "word": "Retroalimentacion negativa",
+    "description": "Concepto asociado a los procesos de autorregulación u homeostáticos. Los sistemas con retroalimentación negativa se caracterizan por la mantención de determinados objetivos. En los sistemas mecánicos los objetivos quedan instalados por un sistema externo.\n",
+    "example": "La manera en que estos objetivos se mantienen, con la ayuda de un sistemas externo. La polinzacion de las plantas con ayuda de las abejas y los pajaros."
+  },
+  {
+    "word": "Retroalimentacion positiva",
+    "description": " La retroalimentación positiva está asociada a los fenómenos de crecimiento y diferenciación. Cuando se mantiene un sistema y se modifican sus metas/fines nos encontramos ante un caso de retroalimentación positiva. En estos casos se aplica la relación desviación-amplificación.\n",
+    "example": "La constumbre que puede tener un animal, al cambiar la temporada entendiendose como el clima. \n\nRelación: Proceso."
+  },
+  {
+    "word": "Retroinput",
+    "description": "Salidas del sistema que van dirigidas al mismo sistema. En los sistemas humanos y sociales éstos corresponden a los procesos de autorreflexión.\n",
+    "example": "Un proceso de elaboracion de  un cuaderno, al introducir madera y realizar los correspondientes procesos industriales. "
+  },
+  {
+    "word": "Salidas",
+    "description": "Son los resultados que se obtienen de procesar las entradas. Al igual que las entradas, pueden adoptar la forma de productos, servicios e información. ",
+    "example": "El resultado de haber estudiado para el parcial de dicha materia."
+  },
+  {
+    "word": "Servicio",
+    "description": "Son los outputs de un sistema que van a servir de inputs a otros sistemas.\n",
+    "example": "Los conocimientos que adquiero en la universidad, al ayudar a la sociedad en resolver problemas de diferentes ambitos."
+  },
+  {
+    "word": "Sistema",
+    "description": "Es un conjunto organizado de cosas o partes interactuantes e interdependientes, que se relacionan formando un todo unitario y complejo",
+    "example": "Esto corresponde a un todo, donde hay elementos, subsistemas, atributos. Un sistema social como ejemplo de uno de los mas complejos."
+  },
+  {
+    "word": "Sistema abierto",
+    "description": "Se trata de sistemas que importan y procesan elementos de sus ambientes y ésta es una característica propia de todos los sistemas vivos. ",
+    "example": "La naturaleza y su interaccion con los demas sistemas."
+  },
+  {
+    "word": "Sistema cerrado",
+    "description": "Un sistema es cerrado cuando ningún elemento de afuera entra y ninguno de adentro sale fuera del sistema. Estos alcanzan su estado máximo de equilibrio al igualarse con el medio. También se aplica a sistemas que se comportan de una manera fija, rítmica o sin variaciones, como sería el caso de los circuitos cerrados.\n",
+    "example": "El interior de una lata de cerveza, una olla express."
+  },
+  {
+    "word": "Sistemas ciberneticos",
+    "description": "Son aquellos que disponen de dispositivos internos de autocomando que reaccionan ante informaciones de cambios en el ambiente, elaborando respuestas variables que contribuyen al cumplimiento de los fines instalados en el sistema.\n",
+    "example": "La tala de arboles en la naturaleza, esto ocasiona un cambio en la disminucion de oxigeno en una zona especifica."
+  },
+  {
+    "word": "Sistema trivial",
+    "description": "Son sistemas con comportamientos altamente predecibles. Responden con un mismo output cuando reciben el input correspondiente, es decir, no modifican su comportamiento con la experiencia.\n",
+    "example": "El juego de la ruleta, o el parques. Con las probabiliddes se puede llegar a predecir las combinaciones exactas de éste."
+  },
+  {
+    "word": "Subsistema",
+    "description": "Conjuntos de elementos y relaciones que responden a estructuras y funciones especializadas dentro de un sistema mayor. En términos generales, los subsistemas tienen las mismas propiedades que los sistemas y su delimitación es relativa a la posición del observador de sistemas y al modelo que tenga de éstos.",
+    "example": "Integrantes de los sistemas que permite una mejor interaccion con éste. Los seres humanos como miembros de la sociedad."
+  },
+  {
+    "word": "Teleologia",
+    "description": "Este concepto expresa un modo de explicación basado en causas finales. Aristóteles y los Escolásticos son considerados como teleológicos en oposición a las causalistas o mecanicistas.\n",
+    "example": "Los propositos que tiene una persona para estudiar cierta carrera, la razon para hacerlo y el fin de haber estudiado eso."
+  },
+  {
+    "word": "Variabilidad",
+    "description": "Indica el máximo de relaciones posibles.",
+    "example": "Las diferentes opciones que tiene un inidviduo al tomar una decision que puede afectar o no su posicion en un sistema."
+  },
+  {
+    "word": "Variables",
+    "description": "Suele denominarse como variable, a cada elemento de un modelo que compone o existe dentro de los sistemas.",
+    "example": "En una ecuacion esta variable puede ocasionar cambios, dependiedo el valo que se le asigne."
+  },
+  {
+    "word": "Variedad",
+    "description": "Comprende el número de elementos discretos en un sistema.\n",
+    "example": "Las diferentes opciones y posibilidades de la interacción de los subsistema con el sistema principal."
+  },
+  {
+    "word": "Viabilidad",
+    "description": "Indica una medida de la capacidad de sobrevivencia y adaptación de un sistema a un medio en cambio.\n",
+    "example": "Los glaciares derritiendose por el cambio climatico, las especies de estas zonas algunas pueden ejercer un cambioen estilo de vida.\n\nRelacion: Ambiente, Armonia, Adaptabilidad."
   }
 ]
