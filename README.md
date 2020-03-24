@@ -6,10 +6,6 @@
 - v1.0 create and dev.
 - v2.0 add table with all words for tgs.
 
-###### Special Rewards 
-
-- Daniel Lagos
-
 ###### Social Networks
 
 ### [Arge Niño](https://www.facebook.com/arge.nino)
