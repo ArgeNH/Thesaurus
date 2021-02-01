@@ -1,5 +1,9 @@
 package runner;
 
+/*
+Autor: Arge Darley Niño Vianchá
+*/
+
 import java.io.IOException;
 
 import controll.ControlThesaurus;
