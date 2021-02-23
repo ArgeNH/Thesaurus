@@ -2,9 +2,12 @@
 
 ## Aplication in Java
 
->Thesaurus for save words, project written in Java 8.
+>Thesaurus for save words, project written in Java 8. ☕
 - v1.0 create and dev.
 - v2.0 add table with all words for tgs.
+
+## Soon
+- Web Application 😋
 
 ###### Social Networks
 
